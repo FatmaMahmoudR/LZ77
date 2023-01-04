@@ -55,7 +55,7 @@ public class Main {
 	           
 		        while(true){   
 		            j++;
-		            //auto it = dict.find(next);
+		            
 		            if (dict.containsKey(next) && i+j < s.length()){
 		            	//found
 		                curr=next;
@@ -132,7 +132,6 @@ public class Main {
 		            m.put(c, v);
 		            original_data+=v;
 		            c++;
-		           //  cout<<ans<<endl;
 		       }
 		       }
 	         else{
